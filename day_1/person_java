@@ -1,0 +1,20 @@
+class person{
+    private String Name;
+    public person(String Name){
+        this.Name=Name;
+    }
+
+    public String getName(){
+        return Name;
+    }
+    public String setName(String Name){
+        this.Name=Name;
+    }
+}
+class rahul{
+    public static void main(String[]args){
+        person obj=new person("sibi");
+        System.out.print("Name: "+obj.getName())
+        
+    }
+}
